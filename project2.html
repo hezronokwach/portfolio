@@ -127,8 +127,8 @@
                   </div>
                 </div>
               </div>
-              <div class="co-md-6 pr-md-5">
-                <p style="font-size: 1.2em;">This analysis focused on human resource data using Tableau to uncover
+              <div class="col-md-12">
+                <p class="project-description">This analysis focused on human resource data using Tableau to uncover
                   insights into employee performance, engagement, and retention. By examining metrics such as turnover
                   rates and employee satisfaction surveys, I identified trends that inform strategic HR decisions. I
                   created visual dashboards highlighting key performance indicators (KPIs) and provided actionable
@@ -150,35 +150,51 @@
             </div>
 
             <style>
+              .project-description {
+                font-size: 1.2em;
+                line-height: 1.6;
+                margin-bottom: 20px;
+              }
+            
+              .button-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                margin-top: 30px;
+                width: 100%;
+              }
+            
               .project-button {
                 display: inline-block;
                 padding: 15px 30px;
-                background-color: #e63946; /* Light Red */
+                background-color: #e63946;
                 color: white;
                 text-decoration: none;
                 border-radius: 5px;
                 transition: background-color 0.3s, transform 0.3s;
                 font-size: 1.2em;
-                width: 200px; /* Set a fixed width */
+                width: 200px;
                 text-align: center;
-                margin: 0 10px; /* Add some horizontal spacing between buttons */
+                margin: 10px;
               }
             
               .project-button:hover {
-                background-color: #d62839; /* Darker shade of red */
-                transform: translateY(-2px); /* Slight lift effect on hover */
+                background-color: #d62839;
+                transform: translateY(-2px);
               }
             
-              .button-container {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-top: 30px;
-                width: 100%; /* Ensure the container spans the full width */
-              }           
+              @media (max-width: 768px) {
+                .project-description {
+                  font-size: 1em;
+                }
             
-            </style> 
-
+                .project-button {
+                  width: 100%;
+                  max-width: 200px;
+                }
+              }
+            </style>
 
           </div>
         </div>

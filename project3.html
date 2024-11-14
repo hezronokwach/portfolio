@@ -132,8 +132,8 @@
                   </div>
                 </div>
               </div>
-              <div class="co-md-6 pr-md-5">
-                <p style="font-size: 1.2em;">This project involved creating a Tableau dashboard that tracks the global availability of COVID-19 vaccines, providing real-time data and updates on vaccine distribution. The dashboard displays critical information such as vaccination rates, locations of vaccination sites, and key statistics related to vaccine administration. By integrating various data sources, I ensured that users could easily access and visualize vaccination trends worldwide. The intuitive interface enhances public awareness and supports informed decision-making regarding COVID-19 vaccination efforts.</p>
+              <div class="col-md-12">
+  <p class="project-description">This project involved creating a Tableau dashboard that tracks the global availability of COVID-19 vaccines, providing real-time data and updates on vaccine distribution. The dashboard displays critical information such as vaccination rates, locations of vaccination sites, and key statistics related to vaccine administration. By integrating various data sources, I ensured that users could easily access and visualize vaccination trends worldwide. The intuitive interface enhances public awareness and supports informed decision-making regarding COVID-19 vaccination efforts.</p>
 
                 <div class="button-container">
                   <a href="https://public.tableau.com/views/covidvaccinetracker/Covidvaccinetracker?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
@@ -148,34 +148,51 @@
             </div>
             
             <style>
+              .project-description {
+                font-size: 1.2em;
+                line-height: 1.6;
+                margin-bottom: 20px;
+              }
+            
+              .button-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                margin-top: 30px;
+                width: 100%;
+              }
+            
               .project-button {
                 display: inline-block;
                 padding: 15px 30px;
-                background-color: #e63946; /* Light Red */
+                background-color: #e63946;
                 color: white;
                 text-decoration: none;
                 border-radius: 5px;
                 transition: background-color 0.3s, transform 0.3s;
                 font-size: 1.2em;
-                width: 200px; /* Set a fixed width */
+                width: 200px;
                 text-align: center;
-                margin: 0 10px; /* Add some horizontal spacing between buttons */
+                margin: 10px;
               }
             
               .project-button:hover {
-                background-color: #d62839; /* Darker shade of red */
-                transform: translateY(-2px); /* Slight lift effect on hover */
+                background-color: #d62839;
+                transform: translateY(-2px);
               }
             
-              .button-container {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-top: 30px;
-                width: 100%; /* Ensure the container spans the full width */
-              }           
+              @media (max-width: 768px) {
+                .project-description {
+                  font-size: 1em;
+                }
             
-            </style> 
+                .project-button {
+                  width: 100%;
+                  max-width: 200px;
+                }
+              }
+            </style>
 
           </div>
         </div>
