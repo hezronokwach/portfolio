@@ -1,12 +1,7 @@
 # My Portfolio
 
-Welcome to my portfolio! This website showcases my work, skills, and projects in web development. Here, you can find examples of my coding abilities, design work, and other relevant experiences that highlight my journey as a developer.
+This website showcases my work, skills, and projects in web development. Here, you can find examples of my coding abilities, design work, and other relevant experiences that highlight my journey as a developer.
 
-## Technologies Used
-
-- HTML
-- CSS
-- JavaScript
 ## Features
 
 - Responsive design that works on various devices.
