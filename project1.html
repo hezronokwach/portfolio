@@ -150,51 +150,53 @@
               </div>
 
               <style>
-                .project-description {
-                  font-size: 1.2em;
-                  line-height: 1.6;
-                  margin-bottom: 20px;
-                }
+  .project-description {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
 
-                .button-container {
-                  display: flex;
-                  flex-wrap: wrap;
-                  justify-content: center;
-                  align-items: center;
-                  margin-top: 30px;
-                  width: 100%;
-                }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+  }
 
-                .project-button {
-                  display: inline-block;
-                  padding: 15px 30px;
-                  background-color: #e63946;
-                  color: white;
-                  text-decoration: none;
-                  border-radius: 5px;
-                  transition: background-color 0.3s, transform 0.3s;
-                  font-size: 1.2em;
-                  width: 200px;
-                  text-align: center;
-                  margin: 10px;
-                }
+  .project-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    border: 2px solid rgb(180, 179, 179);
+    border-radius: 30px;
+    transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    font-size: 1.2em;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+  }
 
-                .project-button:hover {
-                  background-color: #d62839;
-                  transform: translateY(-2px);
-                }
+  .project-button:hover {
+    background-color: transparent;
+    border-color: #ffffff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
 
-                @media (max-width: 768px) {
-                  .project-description {
-                    font-size: 1em;
-                  }
+  @media (max-width: 768px) {
+    .project-description {
+      font-size: 1em;
+    }
 
-                  .project-button {
-                    width: 100%;
-                    max-width: 200px;
-                  }
-                }
-              </style>
+    .project-button {
+      width: 100%;
+      max-width: 200px;
+    }
+  }
+</style>
 
             </div>
           </div>
